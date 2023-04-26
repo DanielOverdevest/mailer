@@ -63,7 +63,7 @@ setup(
 		# ## Dependency Declaration
 		
 		install_requires = [
-				'git+https://github.com/marrow/util.git@develop#egg=marrow.util',
+				'marrow.util @ git+https://github.com/marrow/util.git@develop',
 			],
 		
 		extras_require = {
